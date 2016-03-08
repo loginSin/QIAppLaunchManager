@@ -1,6 +1,6 @@
 //
-//  QIAppUpdateManager.m
-//  QITableViewTest
+//  QIAppLaunchManager.m
+//  QIAppLaunchManager
 //
 //  Created by loginSin; on 16/3/8.
 //  Copyright © 2016年 loginSin. All rights reserved.
