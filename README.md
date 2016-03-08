@@ -1,0 +1,2 @@
+# QIAppLaunchManager
+基于block，用来监测app安装或者版本更新的第一次打开，一般来决定引导页面出现的时机
