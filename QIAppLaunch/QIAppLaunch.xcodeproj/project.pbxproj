@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD401E2B1C8E7F0100BEC7DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD401E2A1C8E7F0100BEC7DE /* main.m */; };
+		BD401E2E1C8E7F0100BEC7DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD401E2D1C8E7F0100BEC7DE /* AppDelegate.m */; };
+		BD401E311C8E7F0100BEC7DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD401E301C8E7F0100BEC7DE /* ViewController.m */; };
+		BD401E341C8E7F0100BEC7DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD401E321C8E7F0100BEC7DE /* Main.storyboard */; };
+		BD401E361C8E7F0100BEC7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD401E351C8E7F0100BEC7DE /* Assets.xcassets */; };
+		BD401E391C8E7F0100BEC7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD401E371C8E7F0100BEC7DE /* LaunchScreen.storyboard */; };
+		BD401E431C8E7F4700BEC7DE /* QIAppLaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD401E421C8E7F4700BEC7DE /* QIAppLaunchManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD401E261C8E7F0100BEC7DE /* QIAppLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QIAppLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD401E2A1C8E7F0100BEC7DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD401E2C1C8E7F0100BEC7DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD401E2D1C8E7F0100BEC7DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD401E2F1C8E7F0100BEC7DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD401E301C8E7F0100BEC7DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD401E331C8E7F0100BEC7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD401E351C8E7F0100BEC7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD401E381C8E7F0100BEC7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD401E3A1C8E7F0100BEC7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD401E411C8E7F4700BEC7DE /* QIAppLaunchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIAppLaunchManager.h; sourceTree = "<group>"; };
+		BD401E421C8E7F4700BEC7DE /* QIAppLaunchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIAppLaunchManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD401E231C8E7F0100BEC7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD401E1D1C8E7F0000BEC7DE = {
+			isa = PBXGroup;
+			children = (
+				BD401E281C8E7F0100BEC7DE /* QIAppLaunch */,
+				BD401E271C8E7F0100BEC7DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD401E271C8E7F0100BEC7DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD401E261C8E7F0100BEC7DE /* QIAppLaunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD401E281C8E7F0100BEC7DE /* QIAppLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				BD401E2C1C8E7F0100BEC7DE /* AppDelegate.h */,
+				BD401E2D1C8E7F0100BEC7DE /* AppDelegate.m */,
+				BD401E2F1C8E7F0100BEC7DE /* ViewController.h */,
+				BD401E301C8E7F0100BEC7DE /* ViewController.m */,
+				BD401E401C8E7F4700BEC7DE /* QIAppLaunchManager */,
+				BD401E321C8E7F0100BEC7DE /* Main.storyboard */,
+				BD401E351C8E7F0100BEC7DE /* Assets.xcassets */,
+				BD401E371C8E7F0100BEC7DE /* LaunchScreen.storyboard */,
+				BD401E3A1C8E7F0100BEC7DE /* Info.plist */,
+				BD401E291C8E7F0100BEC7DE /* Supporting Files */,
+			);
+			path = QIAppLaunch;
+			sourceTree = "<group>";
+		};
+		BD401E291C8E7F0100BEC7DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD401E2A1C8E7F0100BEC7DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD401E401C8E7F4700BEC7DE /* QIAppLaunchManager */ = {
+			isa = PBXGroup;
+			children = (
+				BD401E411C8E7F4700BEC7DE /* QIAppLaunchManager.h */,
+				BD401E421C8E7F4700BEC7DE /* QIAppLaunchManager.m */,
+			);
+			path = QIAppLaunchManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD401E251C8E7F0100BEC7DE /* QIAppLaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD401E3D1C8E7F0100BEC7DE /* Build configuration list for PBXNativeTarget "QIAppLaunch" */;
+			buildPhases = (
+				BD401E221C8E7F0100BEC7DE /* Sources */,
+				BD401E231C8E7F0100BEC7DE /* Frameworks */,
+				BD401E241C8E7F0100BEC7DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QIAppLaunch;
+			productName = QIAppLaunch;
+			productReference = BD401E261C8E7F0100BEC7DE /* QIAppLaunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD401E1E1C8E7F0100BEC7DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = loginSin;
+				TargetAttributes = {
+					BD401E251C8E7F0100BEC7DE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BD401E211C8E7F0100BEC7DE /* Build configuration list for PBXProject "QIAppLaunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD401E1D1C8E7F0000BEC7DE;
+			productRefGroup = BD401E271C8E7F0100BEC7DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD401E251C8E7F0100BEC7DE /* QIAppLaunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD401E241C8E7F0100BEC7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD401E391C8E7F0100BEC7DE /* LaunchScreen.storyboard in Resources */,
+				BD401E361C8E7F0100BEC7DE /* Assets.xcassets in Resources */,
+				BD401E341C8E7F0100BEC7DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD401E221C8E7F0100BEC7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD401E431C8E7F4700BEC7DE /* QIAppLaunchManager.m in Sources */,
+				BD401E311C8E7F0100BEC7DE /* ViewController.m in Sources */,
+				BD401E2E1C8E7F0100BEC7DE /* AppDelegate.m in Sources */,
+				BD401E2B1C8E7F0100BEC7DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD401E321C8E7F0100BEC7DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD401E331C8E7F0100BEC7DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD401E371C8E7F0100BEC7DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD401E381C8E7F0100BEC7DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD401E3B1C8E7F0100BEC7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD401E3C1C8E7F0100BEC7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD401E3E1C8E7F0100BEC7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QIAppLaunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = loginSin.QIAppLaunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD401E3F1C8E7F0100BEC7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QIAppLaunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = loginSin.QIAppLaunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD401E211C8E7F0100BEC7DE /* Build configuration list for PBXProject "QIAppLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD401E3B1C8E7F0100BEC7DE /* Debug */,
+				BD401E3C1C8E7F0100BEC7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD401E3D1C8E7F0100BEC7DE /* Build configuration list for PBXNativeTarget "QIAppLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD401E3E1C8E7F0100BEC7DE /* Debug */,
+				BD401E3F1C8E7F0100BEC7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD401E1E1C8E7F0100BEC7DE /* Project object */;
+}
